@@ -1,9 +1,9 @@
 import React from "react";
-import "./HomePage.css";
+import "./HomePage.scss";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="homepage">
       <p>top</p>
       <p>top -intro -portfolio -work ...</p>
       <p>sec -intro -portfolio -work ...</p>
