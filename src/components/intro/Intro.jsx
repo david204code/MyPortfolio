@@ -17,13 +17,15 @@ export default function Intro() {
             My name is David Wu. A FullStack Software Developer based in London,
             UK. From more of a web developement background, constantly I am
             learning and completeing projects. I am opened to new opportunies in
-            the field tech.
+            the field of tech.
           </p>
         </div>
         <div className="ending">
-          <h4>Contact me at: 356davidwu@gmail.com</h4>
+          <h4>
+            Contact me at: <span>356davidwu@gmail.com</span>{" "}
+          </h4>
           <p>
-            Meanwhile please a good look around and see some of the skills on
+            Meanwhile please a good look around and see some of my skills on
             display.
           </p>
         </div>
