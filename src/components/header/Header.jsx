@@ -23,7 +23,11 @@ export default function Header() {
           <div className="right">
             <div className="rightWrapper">
               <span>
-                <a href="https://github.com/david204code" target="_blank">
+                <a
+                  href="https://github.com/david204code"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {/* <FaGithub size="2em" title="Github icon" /> */}
                   <FaGithub title="Github icon" />
                 </a>
@@ -31,7 +35,11 @@ export default function Header() {
               {/* <span>GitHub</span> */}
             </div>
             <div className="rightWrapper">
-              <a href="https://www.linkedin.com/in/davidwu356/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/davidwu356/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {/* <SiLinkedin size="2em" color="#0050DA" title="Linkedin icon" /> */}
                 <SiLinkedin color="#0050DA" title="Linkedin icon" />
               </a>
