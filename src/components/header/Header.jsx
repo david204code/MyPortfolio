@@ -47,6 +47,14 @@ export default function Header() {
             </div>
           </div>
         </IconContext.Provider>
+        <div className="notice">
+          <div className="noticeBox">
+            <p>
+              Please excuse me, portfolio is still under work....best to have
+              something up :)
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -8,6 +8,22 @@
     align-items: center;
     justify-content: space-evenly;
     letter-spacing: 3px;
+
+    .notice {
+      padding-top: 11.5vh;
+      position: fixed;
+
+      .noticeBox {
+        margin: 10rem 5rem;
+        background: lightcoral;
+        opacity: 0.3;
+        // z-index: 2;
+
+        &:hover {
+          opacity: 0.95;
+        }
+      }
+    }
   }
 
   .left {
@@ -29,6 +45,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 20%;
+    z-index: 1;
   }
 
   a {
