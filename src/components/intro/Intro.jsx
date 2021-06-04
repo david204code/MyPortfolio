@@ -1,16 +1,42 @@
 import React from "react";
 import "./Intro.scss";
+import { init } from "ityped";
+import { useEffect, useRef } from "react";
 
 export default function Intro() {
+  // HTML node reference for react use
+  const greetingText = useRef();
+  const thankYou = useRef();
+
+  // useEffect instead of componenentDidMount()
+  useEffect(() => {
+    // console.log(greetingText);
+    init(greetingText.current, {
+      strings: [
+        "I am glad you are here to view my work and want to find out more.",
+      ],
+      typeSpeed: 90,
+      backSpeed: 70,
+    });
+
+    init(thankYou.current, {
+      strings: ["Thank you for your time!"],
+    });
+  }, []);
+
   return (
     <div className="intro">
       <div className="wrapper">
         <div className="heading">
           <h1>Hello and welcome!</h1>
           <h3>
-            I am glad you are here to view my work and want to find out more.
+            {/* I am glad you are here to view my work and want to find out more. */}
+            <span ref={greetingText}></span>
           </h3>
-          <h3>Thank you for your time.</h3>
+          <h3>
+            {/* Thank you for your time! */}
+            <span ref={thankYou}></span>
+          </h3>
         </div>
         <div className="text">
           <p>
