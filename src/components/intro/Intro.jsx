@@ -6,21 +6,17 @@ import { useEffect, useRef } from "react";
 export default function Intro() {
   // HTML node reference for react use
   const greetingText = useRef();
-  const thankYou = useRef();
 
   // useEffect instead of componenentDidMount()
   useEffect(() => {
     // console.log(greetingText);
     init(greetingText.current, {
       strings: [
-        "I am glad you are here to view my work and want to find out more.",
+        "I am glad you are here to view my work and want to find out more. Thank you for your time!",
       ],
-      typeSpeed: 90,
+      typeSpeed: 95,
       backSpeed: 70,
-    });
-
-    init(thankYou.current, {
-      strings: ["Thank you for your time!"],
+      backDelay: 5000,
     });
   }, []);
 
@@ -30,12 +26,7 @@ export default function Intro() {
         <div className="heading">
           <h1>Hello and welcome!</h1>
           <h3>
-            {/* I am glad you are here to view my work and want to find out more. */}
             <span ref={greetingText}></span>
-          </h3>
-          <h3>
-            {/* Thank you for your time! */}
-            <span ref={thankYou}></span>
           </h3>
         </div>
         <div className="text">
