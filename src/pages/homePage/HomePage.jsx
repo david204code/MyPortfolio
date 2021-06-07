@@ -8,12 +8,12 @@ export default function HomePage() {
     <div className="homepage">
       <Intro />
       <TechStack />
-      <p>top</p>
+      {/* <p>top</p>
       <p>top -intro -portfolio -work ...</p>
       <p>sec -intro -portfolio -work ...</p>
       <p>-intro -portfolio -work ...</p>
       <p>-portfolio -work ...</p>
-      <p>-work ...</p>
+      <p>-work ...</p> */}
     </div>
   );
 }
