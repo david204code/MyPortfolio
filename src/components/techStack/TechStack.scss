@@ -1,4 +1,13 @@
-.techstack {
+@import "../../global.scss";
+
+.techStack {
   height: 100vh;
-  background: orchid;
+  background: rgb(243, 228, 213);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+  }
 }
