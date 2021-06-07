@@ -33,6 +33,11 @@
     align-items: center;
     justify-content: space-evenly;
     width: 20%;
+
+    @include mobile {
+      letter-spacing: 1px;
+      text-align: center;
+    }
   }
 
   .middle {

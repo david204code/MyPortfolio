@@ -10,7 +10,8 @@ export default function Header() {
       <div className="wrapper">
         <div className="left">
           <a href="#home" className="logo">
-            &#60; David Wu &#62;
+            {/* &#60; David Wu &#62; */}
+            David Wu
           </a>
         </div>
         <div className="middle">
