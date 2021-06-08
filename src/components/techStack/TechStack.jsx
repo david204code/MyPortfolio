@@ -30,10 +30,10 @@ export default function TechStack() {
     },
   ];
 
-  // merge all the objects of the data
-  const everyThing = [...frontEnd, ...backEnd, ...others];
-
   useEffect(() => {
+    // merge all the objects of the data
+    const everyThing = [...frontEnd, ...backEnd, ...others];
+
     switch (selected) {
       case "front-end":
         setData(frontEnd);
