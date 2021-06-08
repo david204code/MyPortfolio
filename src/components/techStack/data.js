@@ -27,30 +27,30 @@ export const frontEnd = [
 
 export const backEnd = [
   {
-    id: 1,
+    id: 7,
     title: "Ruby",
   },
   {
-    id: 2,
+    id: 8,
     title: "Ruby on Rails",
   },
   {
-    id: 3,
+    id: 9,
     title: "REST APIs",
   },
 ];
 
 export const others = [
   {
-    id: 1,
+    id: 10,
     title: "Git",
   },
   {
-    id: 2,
+    id: 11,
     title: "MySQL",
   },
   {
-    id: 3,
+    id: 12,
     title: "Heroku",
   },
 ];
