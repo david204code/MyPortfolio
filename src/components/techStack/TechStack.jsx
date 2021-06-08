@@ -1,6 +1,7 @@
 import React from "react";
 import "./TechStack.scss";
 import TechStackList from "../techStackList/TechStackList";
+import { frontEnd, backEnd, others } from "./data";
 
 export default function TechStack() {
   return (
