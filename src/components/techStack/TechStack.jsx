@@ -62,6 +62,7 @@ export default function TechStack() {
             title={item.title}
             setSelected={setSelected}
             id={item.id}
+            active={selected === item.id}
           />
         ))}
       </ul>
