@@ -13,6 +13,10 @@ export default function TechStack() {
 
   const list = [
     {
+      id: "all",
+      title: "All",
+    },
+    {
       id: "front-end",
       title: "FrontEnd",
     },
@@ -23,10 +27,6 @@ export default function TechStack() {
     {
       id: "others",
       title: "Others",
-    },
-    {
-      id: "all",
-      title: "All",
     },
   ];
 
