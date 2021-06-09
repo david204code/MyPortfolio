@@ -2,4 +2,10 @@
   margin: 0 5rem;
   cursor: pointer;
   border-radius: 2rem;
+  padding: 0.5rem;
+
+  &.active {
+    background: #15023a;
+    color: white;
+  }
 }
