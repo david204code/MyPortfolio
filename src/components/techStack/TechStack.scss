@@ -24,13 +24,14 @@
     align-items: center;
     justify-content: center;
     width: 70%;
+
+    .item {
+      width: 20rem;
+      height: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
-  .item {
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
