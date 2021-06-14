@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import "./TechStack.scss";
 import TechStackList from "../techStackList/TechStackList";
 import { frontEnd, backEnd, others } from "./data";
+// import { AiFillGithub } from "react-icons/ai";
 
 export default function TechStack() {
   // for the purpose of the active option on the menu
@@ -55,6 +56,7 @@ export default function TechStack() {
   return (
     <div className="techStack" id="techStack">
       <h1>My Tech Stack ... train in Full Stack</h1>
+      {/* <AiFillGithub size="10rem"/> */}
       <ul>
         {list.map((item) => (
           <TechStackList
@@ -70,6 +72,7 @@ export default function TechStack() {
       <div className="container">
         {data.map((d) => (
           <div className="item" key={d.id}>
+            <d.image size={40}/>
             <h3>{d.title}</h3>
           </div>
         ))}
