@@ -1,35 +1,40 @@
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import { DiCss3, DiSass } from "react-icons/di";
+import { BsBootstrapFill } from "react-icons/bs";
+import { SiJavascript } from "react-icons/si";
+import { GrReactjs } from "react-icons/gr"
+
 
 export const frontEnd = [
   {
     id: 1,
     title: "HTML",
-    image: AiFillGithub,
+    image: AiFillHtml5,
   },
   {
     id: 2,
     title: "CSS",
-    image: AiFillGithub,
+    image: DiCss3,
   },
   {
     id: 3,
     title: "SASS",
-    image: AiFillGithub,
+    image: DiSass,
   },
   {
     id: 4,
     title: "Bootstrap",
-    image: AiFillGithub,
+    image: BsBootstrapFill,
   },
   {
     id: 5,
     title: "JavaScript",
-    image: AiFillGithub,
+    image: SiJavascript,
   },
   {
     id: 6,
     title: "React",
-    image: AiFillGithub,
+    image: GrReactjs,
   },
 ];
 

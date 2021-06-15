@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import "./TechStack.scss";
 import TechStackList from "../techStackList/TechStackList";
 import { frontEnd, backEnd, others } from "./data";
-// import { AiFillGithub } from "react-icons/ai";
 
 export default function TechStack() {
   // for the purpose of the active option on the menu
