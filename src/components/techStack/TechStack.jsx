@@ -71,7 +71,7 @@ export default function TechStack() {
       <div className="container">
         {data.map((d) => (
           <div className="item" key={d.id}>
-            <d.image size={40}/>
+            <d.image size={130}/>
             <h3>{d.title}</h3>
           </div>
         ))}
