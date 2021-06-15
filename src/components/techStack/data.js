@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillHtml5, AiFillCloud } from "react-icons/ai";
 import { DiCss3, DiSass, DiRuby } from "react-icons/di";
 import { BsBootstrapFill } from "react-icons/bs";
 import { SiJavascript, SiRails } from "react-icons/si";
-import { GrReactjs } from "react-icons/gr";
+import { GrReactjs, GrMysql, GrHeroku } from "react-icons/gr";
 
 
 export const frontEnd = [
@@ -65,11 +65,11 @@ export const others = [
   {
     id: 11,
     title: "MySQL",
-    image: AiFillGithub,
+    image: GrMysql,
   },
   {
     id: 12,
     title: "Heroku",
-    image: AiFillGithub,
+    image: GrHeroku,
   },
 ];
