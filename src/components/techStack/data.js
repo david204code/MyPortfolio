@@ -1,8 +1,8 @@
-import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiSass } from "react-icons/di";
+import { AiFillGithub, AiFillHtml5, AiFillCloud } from "react-icons/ai";
+import { DiCss3, DiSass, DiRuby } from "react-icons/di";
 import { BsBootstrapFill } from "react-icons/bs";
-import { SiJavascript } from "react-icons/si";
-import { GrReactjs } from "react-icons/gr"
+import { SiJavascript, SiRails } from "react-icons/si";
+import { GrReactjs } from "react-icons/gr";
 
 
 export const frontEnd = [
@@ -42,17 +42,17 @@ export const backEnd = [
   {
     id: 7,
     title: "Ruby",
-    image: AiFillGithub,
+    image: DiRuby,
   },
   {
     id: 8,
     title: "Ruby on Rails",
-    image:AiFillGithub,
+    image: SiRails,
   },
   {
     id: 9,
     title: "REST APIs",
-    image: AiFillGithub,
+    image: AiFillCloud,
   },
 ];
 
