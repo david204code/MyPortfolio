@@ -18,7 +18,7 @@
     padding: 0;
   }
 
-  .container{
+  .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -31,6 +31,42 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
+      padding: 2rem 0;
+      color: white;
+
+      .itemCon {
+        // background: lightblue;
+        text-align: center;
+        padding: 1rem 0;
+
+      }
+
+      svg {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      h3{
+        position: absolute;
+        font-size: 2rem;
+        display: none;
+      }
+
+      &:hover {
+        background: #15023a;
+        
+        svg {
+          opacity: 0.2;
+          z-index: 0;
+        }
+
+        h3 {
+          display: block;
+        }
+      }
     }
   }
 

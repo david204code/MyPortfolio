@@ -55,7 +55,6 @@ export default function TechStack() {
   return (
     <div className="techStack" id="techStack">
       <h1>My Tech Stack ... train in Full Stack</h1>
-      {/* <AiFillGithub size="10rem"/> */}
       <ul>
         {list.map((item) => (
           <TechStackList
