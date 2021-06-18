@@ -9,14 +9,14 @@ export default function Header() {
     <div className="header">
       <div className="wrapper">
         <div className="left">
-          <a href="#home" className="logo">
+          <a href="/" className="logo">
             {/* &#60; David Wu &#62; */}
             David Wu
           </a>
         </div>
         <div className="middle">
           <div className="middleWrapper">
-            <a href="#mywork">My work</a>
+            <a href="/mywork">My work</a>
           </div>
         </div>
 
