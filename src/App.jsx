@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
 import Header from "./components/header/Header";
 import HomePage from "./pages/homePage/HomePage";
